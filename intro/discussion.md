@@ -41,3 +41,5 @@ func show(s *collections.Stack) {
 	}
 }
 ```
+
+# 3
