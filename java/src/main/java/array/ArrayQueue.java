@@ -1,11 +1,10 @@
 package array;
 
-import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 // 循環配列で削除する要素を追跡
 // 入らなくなったらresize
-public class ArrayQueue implements Queue, ArrayViewer {
+public class ArrayQueue implements Queue, ArrayDebugger {
     int[] a; // 循環配列
     int j; // 削除する要素
     int n; // 要素数
@@ -36,5 +35,11 @@ public class ArrayQueue implements Queue, ArrayViewer {
     @Override
     public void show() {
         ArrayUtils.show(a);
+    }
+
+    int[] array() {
+        int[] b = new int[0];
+        System.arraycopy(a, 0, b, 0, n);
+        return b;
     }
 }

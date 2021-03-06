@@ -1,5 +1,6 @@
 package array;
 
-public interface ArrayViewer {
+public interface ArrayDebugger {
     void show();
+
 }
