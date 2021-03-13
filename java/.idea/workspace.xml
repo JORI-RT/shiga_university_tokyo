@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62b8727c-28cf-4ff2-a51a-cebcf6d6d84c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/array/ArrayQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array/ArrayDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/btree/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/array/ArrayDequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/btree/BTNodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array/ArrayViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array/ArrayDebugger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -72,62 +71,17 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43641353">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayDequeTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="248">
-                  <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="385">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
                   <folding>
-                    <element signature="e#109#110#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/array/Queue.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="172">
-                  <caret line="564" column="30" selection-start-line="564" selection-start-column="30" selection-end-line="564" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayDebugger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Array.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="484" column="33" selection-start-line="484" selection-start-column="33" selection-end-line="484" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -137,22 +91,29 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayQueueTest.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayDeque.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="25" selection-start-line="25" selection-end-line="25" />
+                <state relative-caret-position="185">
+                  <caret line="33" selection-start-line="33" selection-end-line="33" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#412#413#0" expanded="true" />
+                    <element signature="e#453#454#0" expanded="true" />
+                    <element signature="e#482#483#0" expanded="true" />
+                    <element signature="e#526#527#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayUtils.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="269">
-                  <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#109#110#0" expanded="true" />
+                    <element signature="e#167#168#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -173,6 +134,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>T</find>
+      <find>instance of</find>
     </findStrings>
     <replaceStrings>
       <replace>int</replace>
@@ -184,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Hoge.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/HogeTest.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -198,11 +159,17 @@
         <option value="$PROJECT_DIR$/src/main/java/array/Queue.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ArrayViewer.java" />
         <option value="$PROJECT_DIR$/src/test/java/array/IntArrayStackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/array/ArrayUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ArrayDebugger.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ArrayQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java" />
         <option value="$PROJECT_DIR$/src/test/java/array/ArrayQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/array/ArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array/ArrayUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hoge.java" />
+        <option value="$PROJECT_DIR$/src/test/java/btree/BTNodeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/btree/BTNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array/ArrayDeque.java" />
+        <option value="$PROJECT_DIR$/src/test/java/array/ArrayDequeTest.java" />
       </list>
     </option>
   </component>
@@ -288,6 +255,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.2325" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -300,6 +268,10 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="btree" />
+      <recent name="array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,13 +286,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ArrayQueueTest.name">
-    <configuration name="ArrayQueue2Test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ArrayDequeTest.test02">
+    <configuration name="ArrayDequeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;array.IntArrayStackTest$ArrayQueue2Test&quot;" />
+        <option name="scriptParameters" value="--tests &quot;array.ArrayDequeTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ArrayDequeTest.test01" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;array.ArrayDequeTest.test01&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ArrayDequeTest.test02" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;array.ArrayDequeTest.test02&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -375,53 +387,13 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ArryaQueue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;array.IntArrayStackTest$ArryaQueue&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="IntArrayStackTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;array.IntArrayStackTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ArrayDequeTest.test02" />
+        <item itemvalue="Gradle.ArrayDequeTest" />
+        <item itemvalue="Gradle.ArrayDequeTest.test01" />
         <item itemvalue="Gradle.ArrayQueueTest.name" />
         <item itemvalue="Gradle.ArrayQueueTest" />
-        <item itemvalue="Gradle.ArrayQueue2Test" />
-        <item itemvalue="Gradle.IntArrayStackTest" />
-        <item itemvalue="Gradle.ArryaQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -446,42 +418,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 02h 54m 05s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.08 at 22h 19m 20s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 02h 57m 48s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.08 at 22h 21m 04s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 02h 58m 45s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.08 at 22h 21m 24s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest - 2021.03.07 at 02h 59m 43s.xml">
-      <configuration name="ArrayQueueTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 18m 43s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 00m 44s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 21m 43s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 03m 43s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 23m 38s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 04m 43s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 24m 14s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 05m 19s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 25m 20s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 05m 56s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 27m 05s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ArrayQueueTest_name - 2021.03.07 at 03h 06m 32s.xml">
-      <configuration name="ArrayQueueTest.name" configurationId="GradleRunConfiguration" />
+    <history-entry file="ArrayDequeTest_test02 - 2021.03.13 at 18h 27m 45s.xml">
+      <configuration name="ArrayDequeTest.test02" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21816881" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -491,8 +463,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28872368" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3345725" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hoge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -650,27 +615,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Array.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="484" column="33" selection-start-line="484" selection-start-column="33" selection-end-line="484" selection-end-column="33" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="564" column="30" selection-start-line="564" selection-start-column="30" selection-end-line="564" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#109#110#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="284">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -681,6 +636,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="564" column="30" selection-start-line="564" selection-start-column="30" selection-end-line="564" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayDebugger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -688,24 +657,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Array.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="298">
+          <caret line="484" column="33" selection-start-line="484" selection-start-column="33" selection-end-line="484" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayQueue2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hoge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/btree/BTNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/btree/BTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/jdk.rmic/sun/tools/tree/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/source/tree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/tree/JCTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="2054" column="78" selection-start-line="2054" selection-start-column="78" selection-end-line="2054" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/jdk.compiler/com/sun/tools/javac/util/GraphUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/array/ArrayDequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
