@@ -1,3 +1,5 @@
+package IF;
+
 // UnorderdSet
 public interface USet {
     void size();

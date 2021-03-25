@@ -1,3 +1,5 @@
+package IF;
+
 public interface SSet {
     void size();
 
